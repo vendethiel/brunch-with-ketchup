@@ -1,7 +1,7 @@
 {
-  "name": "angular-test",
-  "version": "0.0.1",
-  "github": "Nami-Doc/angular-test",
+  "name": "brunch-with-ketchup",
+  "version": "1.0.0",
+  "github": "Nami-Doc/brunch-with-ketchup",
   "dependencies": {
     "javascript-brunch": "1.5.x",
     "LiveScript": ">= 1.1.1",
