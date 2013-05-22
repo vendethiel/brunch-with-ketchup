@@ -1,0 +1,7 @@
+div#login-toolbar.navbar.navbar-inverse.navbar-fixed-top
+	#header.navbar-inner(ng-controller="HeaderCtrl")
+		.container
+			a.brand(href="/")= title
+			ul.nav(ng-show="user")
+				li: a(href="/anime") Anime list
+			login-toolbar
