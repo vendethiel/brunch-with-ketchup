@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "github": "Nami-Doc/brunch-with-ketchup",
   "dependencies": {
-    "javascript-brunch": "1.5.x",
+    "some-javascript-brunch": "0.0.1",
     "LiveScript": ">= 1.1.1",
     "LiveScript-brunch": "1.5.x",
     
-    "css-brunch": "1.5.x",
+    "some-stylesheet-brunch": "0.0.1",
     "stylus-brunch": "1.5.x",
     
     "jade-brunch": "1.4.x",
