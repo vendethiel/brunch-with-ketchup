@@ -1,10 +1,10 @@
-for name in <[myModule shared]>
+for name in <[blog shared]>
 	require "src/#name"
 
 app = angular.module 'app' <[
 	ui
 	myService
-	myModule shared
+	blog shared
 ]>
 
 app.config !($locationProvider) ->

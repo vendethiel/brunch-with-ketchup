@@ -27,6 +27,8 @@ Includes Brunch auto reload.
 brunch new appname -s gh:Nami-Doc/brunch-with-ketchup
 ```
 
+Don't forget to include your driver in `package.json` (by default, mysql is installed).
+
 ## Notes
 
 AngularJS templates are broken, you're free to fix them yourselves or [bump the issue on the repo/PR for it](https://github.com/GulinSS/jade-angularjs-brunch/issues/11). A fix may be used in the future.

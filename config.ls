@@ -14,20 +14,18 @@ exports.config =
         'js/app.js': /^app/
         'js/vendor.js': /^vendor/
       order:
-        before: []
+        before: assets.javascripts
 
     stylesheets:
       joinTo:
         'css/app.css': /^app/
         'css/vendor.css': /^vendor/
       order:
-        before: assets.javascripts
+        before: assets.stylesheets
 
     templates:
       joinTo:
         'js/dontUseMe' : /^app/ #slutty hack for Jade-auto-compiling
-      order:
-        before: assets.stylesheets
 
   plugins:
     jade: {+pretty, locals}
@@ -45,7 +43,7 @@ exports.config =
     run: false
 
     # configure it for your DB
-    db: "#protocol://#user:#password@#host/#database"
+    db: "mysql://root:password@localhost/ketchup"
 
   # Enable or disable minifying of result js / css files.
   # minify: true
