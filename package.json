@@ -3,21 +3,20 @@
   "version": "1.0.0",
   "github": "Nami-Doc/brunch-with-ketchup",
   "dependencies": {
-    "some-javascript-brunch": "0.0.2",
-    "LiveScript": ">= 1.1.1",
-    "LiveScript-brunch": "1.5.x",
+    "some-javascript-brunch": "1.6.0",
+    "LiveScript-brunch": "1.6.0",
     
-    "some-stylesheet-brunch": "0.0.1",
-    "stylus-brunch": "1.5.x",
+    "some-stylesheet-brunch": "1.6.0",
+    "stylus-brunch": "1.6.1",
     
-    "jade-brunch": "1.4.x",
-    "static-jade-brunch": ">= 1.4.0 <= 1.4.5 || >= 1.4.8 < 1.5",
-    "jade-angularjs-brunch" : "0.0.5",
+    "jade-brunch": "1.5.1",
+    "static-jade-brunch": "1.4.11",
+    "jade-angularjs-brunch2" : "1.6.0",
 
-    "auto-reload-brunch": "1.5.x",
+    "auto-reload-brunch": "1.6.3",
     
-    "uglify-js-brunch": "1.3.x",
-    "clean-css-brunch": "1.5.x",
+    "uglify-js-brunch": "1.7.0",
+    "clean-css-brunch": "1.6.0",
 
 
 
