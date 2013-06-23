@@ -9,7 +9,7 @@ html(lang='en', ng-app="app")
 		title(ng-bind-template='{{title}} - AT')
 		link(rel='stylesheet', href='/css/vendor.css')
 		link(rel='stylesheet', href='/css/app.css')
-		script
+		script.
 			window.brunch = window.brunch || {};
 			window.brunch['auto-reload'] = {
 				enabled: true
@@ -22,5 +22,5 @@ html(lang='en', ng-app="app")
 		script(src='/src/myModule.templates.js')
 		script(src='/src/shared.templates.js')
 		script(src='/js/app.js')
-		script
+		script.
 			require('initialize');
