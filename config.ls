@@ -38,9 +38,6 @@ exports.config =
   # Delete that part if you do not want to use express
   server:
     path: 'server.ls'
-    port: 3333
-    base: ''
-    run: false
 
     # configure it for your DB
     db: "mysql://root:password@localhost/ketchup"

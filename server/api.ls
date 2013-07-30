@@ -18,7 +18,6 @@ app.use express.session secret: 'express-with-ketchup'
 /**
  * Serve resources
  */
-for resource in <[restmodule1 restmodule2]>
-	app.resource resource, require "./#resource"
+#app.resource 'articles' require './api/articles'
 
 module.exports = app
