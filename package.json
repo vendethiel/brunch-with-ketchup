@@ -1,17 +1,17 @@
 {
   "name": "brunch-with-ketchup",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "github": "Nami-Doc/brunch-with-ketchup",
   "dependencies": {
-    "some-javascript-brunch": "1.6.0",
+    "javascript-brunch": "1.6.0",
     "LiveScript-brunch": "1.6.0",
     
-    "some-stylesheet-brunch": "1.6.0",
+    "css-brunch": "1.6.0",
     "stylus-brunch": "1.6.1",
     
-    "jade-brunch": "1.5.1",
+    "jade-brunch": "1.7.2",
     "static-jade-brunch": "1.4.11",
-    "jade-angularjs-brunch2" : "1.6.0",
+    "jade-angularjs-brunch": "1.0.5",
 
     "auto-reload-brunch": "1.6.3",
     

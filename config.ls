@@ -1,10 +1,6 @@
 locals =
   title: 'With Ketchup'
 
-assets =
-  javascripts: []
-  stylesheets: []
-
 exports.config =
   paths:
     public: '_public'
@@ -28,12 +24,11 @@ exports.config =
         'js/dontUseMe' : /^app/ #slutty hack for Jade-auto-compiling
 
   plugins:
-    jade: {+pretty, locals}
     jade_angular:
       modules_folder: 'templates'
       locals: locals
-    javascripts: assets.javascripts
-    stylesheets: assets.stylesheets
+      single_file: true
+      single_file_name: 'js/angular_templates.js'
 
   # Delete that part if you do not want to use express
   server:
