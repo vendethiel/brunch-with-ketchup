@@ -24,7 +24,7 @@ Includes Brunch auto reload.
 ## Installation
 
 ```
-brunch new appname -s gh:Nami-Doc/brunch-with-ketchup
+brunch new gh:Nami-Doc/brunch-with-ketchup
 ```
 
 Don't forget to include your driver in `package.json` (by default, mysql is installed).
