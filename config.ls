@@ -1,6 +1,3 @@
-locals =
-  title: 'With Ketchup'
-
 exports.config =
   paths:
     public: '_public'
@@ -18,10 +15,6 @@ exports.config =
         'css/vendor.css': /^vendor/
       order:
         before: assets.stylesheets
-
-    templates:
-      joinTo:
-        'js/dontUseMe' : /^app/ #slutty hack for Jade-auto-compiling
 
   plugins:
     jade_angular:
