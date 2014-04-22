@@ -13,8 +13,6 @@ As **front-end libraries** :
 
 The skeleton is meant for **large apps**, with a lot of controllers, directives, and meant for maintainability and scalability.
 
-**Note on Bower** : Skeleton uses a `bower.json` file to fetch components (just run `bower install`), but you have to manually copy them over to `vendor/` (and add them in your `config.ls`) because Bower is broken (returning folders as source when running `bower list`) and the plugins for it are broken too (no way to give your own list to fix bower's crap, returning files without extensions, strange bugs).
-
 As **back-end libraries** : (you can of course disable the server-side very easily, for you to swap your own)
   - Express
   - Express-resource
